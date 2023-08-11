@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Futura";
+    src: url(../assets/fonts/Futura\ Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Spartan";
+    src: url(../assets/fonts/LeagueSpartan-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Spartan";
+    src: url(../assets/fonts/LeagueSpartan-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Armstrong";
+    src: url(../assets/fonts/Armstrong.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Armstrong Oblique";
+    src: url(../assets/fonts/Armstrong\ Oblique.otf);
+    font-weight: normal;
+    font-style: normal;
+}

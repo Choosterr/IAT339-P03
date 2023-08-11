@@ -1,0 +1,324 @@
+body {
+    font-family: sans-serif;
+    padding: 2rem;
+  }
+  
+section {
+    margin-bottom: 3rem;
+}
+  
+  /* Fonts */
+
+h1{  
+    font-family: "Armstrong Oblique", "Bahnschrift";
+    font-weight: bold;
+    font-size: 3rem;
+    color: #154193;
+}
+  
+h2{
+    font-family: "Armstrong", "Corbel";
+    font-weight: bold;
+    font-size: 2rem;
+    color: #0E2E6A;
+}
+  
+h3{
+    font-family: "Spartan", "Corbel";
+    font-weight: bold;
+}
+
+h4{
+    font-family: "Spartan", "Corbel";
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+p{
+    font-family: "Futura", "Arial";
+    font-weight: normal;
+
+    max-width: 50rem;
+}
+
+a {
+    font-family: "Spartan", "Corbel";
+    font-weight: normal;
+}
+/* Header */
+
+div.logo {
+	display:block;
+	margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+	text-align: center;
+    position:relative;
+
+}
+
+nav.main-navigation {
+	display:block;
+	padding-top:2rem;
+	width:80%;
+	margin:auto;
+	text-align: center;
+}
+
+
+
+nav.main-navigation>a {
+	text-decoration:underline;
+    color:#FFFFFF;
+    background-color: #0E2E6A;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+	margin-right:3rem;
+}
+
+nav.main-navigation>a:last-child {
+	margin-right:0;
+}
+
+nav.main-navigation>a:hover {
+    text-decoration: none;
+    background-color: #FFFFFF ;
+	color:#0E2E6A;
+	transition:color 0.2s;
+    border: 2px solid #0E2E6A;
+    border-radius: 0.5rem;
+}
+
+/* Home Content */
+
+div.projects-list {
+	margin-top:2rem;
+	display:flex;
+	justify-content:center;
+	flex-wrap: wrap;
+}
+
+div.projects-item {
+	background-color:#ffffff;
+	display:inline-block;
+	border-radius:0.5rem;
+	box-shadow: 0 0 0.5rem #dddddd;
+	transition:background-color 0.1s;
+	width:20rem;
+	margin: 1rem;
+
+    border: 2px solid #0E2E6A;
+}
+
+img.item-image{
+	width:100%;
+	height:15rem;
+	object-fit:cover;
+	object-position: center;
+	display:block;
+	margin-bottom:1rem;
+    opacity: 80%;
+}
+
+img.item-image:hover{
+	opacity: 100%;
+}
+
+div.item-name>a {
+    font-size:1.5rem;
+	text-decoration:none;
+    font-weight:bold;
+	color:#0E2E6A;
+	}
+
+div.item-name:hover {
+	text-decoration:underline;
+    text-decoration-color: #154193;
+	font-weight:bold;
+	font-size:1.5rem;
+}
+
+div.item-details{    
+    display:inline-block;
+    width:12rem;
+    margin-left:2rem;
+    
+}
+
+div.page-header{
+    padding:2rem 5rem 0 5rem;
+    max-width:1250px;
+    margin-top:2.5rem;
+    margin:auto;
+    justify-content: space-between;
+    
+}
+
+h2.category, h3.category {
+	text-align: center;
+	margin-top:3rem;
+}
+
+/* About Page */
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: space-between;
+
+    background-color: #DEE8FE;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+}
+
+.about-item{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    margin: 1rem;
+}
+
+.about-img{
+    text-align: center;
+    width: 80%;
+	height:50%;
+    object-fit: contain;
+    margin: auto;
+    border: 3px solid #0E2E6A;
+}
+
+.contact-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: space-between;
+
+}
+
+.contact-item{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    margin: 1rem;
+    border: 3px solid #0E2E6A;
+}
+
+/* Style Guide */
+
+.box-color{
+    /* code from in-class tutorial */
+    padding: 2rem;
+    margin: 1rem;
+  }
+  
+  .box-white{
+    /* code from in-class tutorial */
+    border: 2px solid #0E2E6A;
+  }
+  
+  .box-ice-blue{
+    /* code from in-class tutorial */
+    color: black;
+    background-color: #DEE8FE;
+  }
+  
+  .box-blue{
+    /* code from in-class tutorial */
+    color: white;
+    background-color: #154193;
+  }
+  
+  .box-dark-blue{
+    /* code from in-class tutorial */
+    color: white;
+    background-color: #0E2E6A;
+  }
+
+  .box-black{
+    /* code from in-class tutorial */
+    color: white;
+    background-color: black;
+    margin-bottom: 1rem;
+  }
+
+  .font-armstrong-oblique{  
+    font-family: "Armstrong Oblique", "Bahnschrift";
+    font-size: 2rem;
+}
+  
+.font-armstrong{
+    font-family: "Armstrong", "Corbel";
+    font-size: 2rem;
+}
+  
+.font-spartan{
+    font-family: "Spartan", "Corbel";
+    font-size: 2rem;
+}
+
+.font-futura{
+    font-family: "Futura", "Arial";
+    font-size: 2rem;
+}
+
+@media only screen and (min-width:960px){
+	
+	header {
+		padding:2rem 5rem 0 5rem;
+		max-width:1250px;
+		display:flex;
+		margin-top:2.5rem;
+		margin:auto;
+	}
+	
+	div.list-header{
+		padding:2rem 5rem 0 5rem;
+		max-width:1250px;
+		margin-top:2.5rem;
+		margin:auto;
+		justify-content: space-between;
+		
+	}
+
+	div.projects-list {
+		display:flex;
+		justify-content:center;
+		flex-wrap: wrap;
+		max-width:1250px;
+		padding:2.5rem 5rem;
+		margin:auto;
+	}
+	
+	h2.category, h3.category {
+		text-align: left;
+		margin-top:1rem;
+		margin-bottom:1rem;
+		display:block;
+		
+	}
+	.logo-type{
+        position: absolute;
+        text-align: left;
+        left: 20rem;
+        top: 4.5rem;
+    }
+	
+	nav.main-navigation {
+		text-align: right!important;
+	}
+
+    nav.style-guide-navigation {
+		text-align: left!important;
+	}
+
+    .about-header{
+        order:-2;
+    }
+
+    .container{
+        text-align: left;
+        justify-content: space-around;
+    }
+	
+}
