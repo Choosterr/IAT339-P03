@@ -57,6 +57,10 @@ div.logo {
 
 }
 
+img.header-logo {
+	width:12rem;
+}
+
 nav.main-navigation {
 	display:block;
 	padding-top:2rem;
@@ -64,8 +68,6 @@ nav.main-navigation {
 	margin:auto;
 	text-align: center;
 }
-
-
 
 nav.main-navigation>a {
 	text-decoration:underline;
@@ -87,6 +89,44 @@ nav.main-navigation>a:hover {
 	transition:color 0.2s;
     border: 2px solid #0E2E6A;
     border-radius: 0.5rem;
+}
+
+/* Footer */
+
+footer {
+	background-color:#0E2E6A;
+	color: #FFFFFF;
+	padding:2rem;
+	margin:5rem 0 0 0 ;
+	text-align:center;
+	display:flex;
+}
+
+div.footer-left{
+	flex-grow: 2;
+}
+
+div.footer-right{
+	flex-grow: 1;
+}
+
+nav.footer-nav {
+	text-align:left;
+    margin-left: 1rem;
+}
+
+nav.footer-nav>a {
+	display:block;
+	text-decoration:none;
+	color:white;
+}
+
+nav.footer-nav>a:hover{
+	text-decoration: underline;
+}
+
+img.footer-logo {
+	width:5rem;
 }
 
 /* Home Content */
@@ -214,6 +254,8 @@ h2.category, h3.category {
   
   .box-white{
     /* code from in-class tutorial */
+    color: black;
+    background-color: white;
     border: 2px solid #0E2E6A;
   }
   
@@ -221,6 +263,7 @@ h2.category, h3.category {
     /* code from in-class tutorial */
     color: black;
     background-color: #DEE8FE;
+    border: 2px solid #0E2E6A;
   }
   
   .box-blue{
@@ -278,8 +321,14 @@ h2.category, h3.category {
 		margin-top:2.5rem;
 		margin:auto;
 		justify-content: space-between;
-		
 	}
+
+    nav.footer-nav {
+        text-align:left;
+        margin-left: 5rem;
+    }
+
+
 
 	div.projects-list {
 		display:flex;
@@ -300,8 +349,8 @@ h2.category, h3.category {
 	.logo-type{
         position: absolute;
         text-align: left;
-        left: 20rem;
-        top: 4.5rem;
+        left: 13rem;
+        top: 1rem;
     }
 	
 	nav.main-navigation {
