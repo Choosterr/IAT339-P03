@@ -225,9 +225,9 @@ h2.category, h3.category {
 }
 
 img.about-img{
-    max-width: 80%;
+    width: 80%;
     object-fit: contain;
-    margin: auto;
+    margin: 0 auto 0 auto;
     border: 3px solid #0E2E6A;
     box-shadow: 10px 10px #154193;
 }
@@ -249,10 +249,10 @@ img.about-img{
 }
 
 img.project-img{
-    max-height: 30%;
-    width: auto;
+    height: 50%;
+    max-width: 80%;
     object-fit: contain;
-    margin: auto;
+    margin: 2rem auto 2rem auto;
     border: 3px solid #0E2E6A;
     box-shadow: 10px 10px #154193;
 }
@@ -398,6 +398,15 @@ img.project-img{
     .container{
         text-align: left;
         justify-content: space-around;
+    }
+
+    img.project-img{
+        max-height: 30%;
+        width: auto;
+        object-fit: contain;
+        margin: 2rem auto 2rem auto;
+        border: 3px solid #0E2E6A;
+        box-shadow: 10px 10px #154193;
     }
 	
 }
