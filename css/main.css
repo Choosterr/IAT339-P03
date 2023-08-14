@@ -1,13 +1,14 @@
 body {
     font-family: sans-serif;
-    padding: 2rem;
+    padding: 0;
+    margin:0;
   }
   
 section {
     margin-bottom: 3rem;
 }
   
-  /* Fonts */
+/* Fonts */
 
 h1{  
     font-family: "Armstrong Oblique", "Bahnschrift";
@@ -45,16 +46,16 @@ a {
     font-family: "Spartan", "Corbel";
     font-weight: normal;
 }
+
 /* Header */
 
 div.logo {
 	display:block;
-	margin-left:auto;
-    margin-right: auto;
-    margin-bottom: 1rem;
+    margin: 1rem auto 1rem auto;
 	text-align: center;
     position:relative;
 
+    text-shadow: 0 0 10px #DEE8FE;
 }
 
 img.header-logo {
@@ -97,7 +98,7 @@ footer {
 	background-color:#0E2E6A;
 	color: #FFFFFF;
 	padding:2rem;
-	margin:5rem 0 0 0 ;
+	margin-top:5rem;
 	text-align:center;
 	display:flex;
 }
@@ -119,6 +120,7 @@ nav.footer-nav>a {
 	display:block;
 	text-decoration:none;
 	color:white;
+    margin:0.3rem;
 }
 
 nav.footer-nav>a:hover{
@@ -191,12 +193,12 @@ div.page-header{
     margin-top:2.5rem;
     margin:auto;
     justify-content: space-between;
-    
+    display: block;
 }
 
 h2.category, h3.category {
 	text-align: center;
-	margin-top:3rem;
+	margin-top:2rem;
 }
 
 /* About Page */
@@ -204,12 +206,14 @@ h2.category, h3.category {
 .about-container {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     align-items: flex-start;
     align-content: space-between;
 
     background-color: #DEE8FE;
     border-radius: 0.5rem;
-    margin-top: 2rem;
+    margin: 2rem;
+    padding: 0rem 2rem 0 2rem; 
 }
 
 .about-item{
@@ -245,6 +249,10 @@ h2.category, h3.category {
 }
 
 /* Style Guide */
+
+.body-container{
+    margin: 0 3rem 0 3rem;
+}
 
 .box-color{
     /* code from in-class tutorial */
@@ -351,6 +359,8 @@ h2.category, h3.category {
         text-align: left;
         left: 13rem;
         top: 1rem;
+
+        
     }
 	
 	nav.main-navigation {
