@@ -13,10 +13,14 @@
     height: 50px;
 }
 
-
 .container-item{
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
     margin: 1rem;
+}
+
+.centered-item{
+    display: block;
+    justify-content: center;
 }

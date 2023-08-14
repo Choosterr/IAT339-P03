@@ -27,6 +27,8 @@ h2{
 h3{
     font-family: "Spartan", "Corbel";
     font-weight: bold;
+
+    
 }
 
 h4{
@@ -54,7 +56,6 @@ div.logo {
     margin: 1rem auto 1rem auto;
 	text-align: center;
     position:relative;
-
     text-shadow: 0 0 10px #DEE8FE;
 }
 
@@ -98,7 +99,7 @@ footer {
 	background-color:#0E2E6A;
 	color: #FFFFFF;
 	padding:2rem;
-	margin-top:5rem;
+	margin: 5 auto 0 auto;
 	text-align:center;
 	display:flex;
 }
@@ -113,7 +114,7 @@ div.footer-right{
 
 nav.footer-nav {
 	text-align:left;
-    margin-left: 1rem;
+    margin-left: 3rem;
 }
 
 nav.footer-nav>a {
@@ -213,7 +214,7 @@ h2.category, h3.category {
     background-color: #DEE8FE;
     border-radius: 0.5rem;
     margin: 2rem;
-    padding: 0rem 2rem 0 2rem; 
+    padding: 0rem 2rem 2rem 2rem; 
 }
 
 .about-item{
@@ -223,13 +224,12 @@ h2.category, h3.category {
     margin: 1rem;
 }
 
-.about-img{
-    text-align: center;
-    width: 80%;
-	height:50%;
+img.about-img{
+    max-width: 80%;
     object-fit: contain;
     margin: auto;
     border: 3px solid #0E2E6A;
+    box-shadow: 10px 10px #154193;
 }
 
 .contact-container{
@@ -237,7 +237,6 @@ h2.category, h3.category {
     flex-wrap: wrap;
     align-items: baseline;
     align-content: space-between;
-
 }
 
 .contact-item{
@@ -245,7 +244,17 @@ h2.category, h3.category {
     flex-shrink: 1;
     flex-basis: auto;
     margin: 1rem;
+    padding: 1rem;
     border: 3px solid #0E2E6A;
+}
+
+img.project-img{
+    max-height: 30%;
+    width: auto;
+    object-fit: contain;
+    margin: auto;
+    border: 3px solid #0E2E6A;
+    box-shadow: 10px 10px #154193;
 }
 
 /* Style Guide */
@@ -333,10 +342,8 @@ h2.category, h3.category {
 
     nav.footer-nav {
         text-align:left;
-        margin-left: 5rem;
+        margin-left: 10rem;
     }
-
-
 
 	div.projects-list {
 		display:flex;
@@ -359,8 +366,6 @@ h2.category, h3.category {
         text-align: left;
         left: 13rem;
         top: 1rem;
-
-        
     }
 	
 	nav.main-navigation {
@@ -373,6 +378,21 @@ h2.category, h3.category {
 
     .about-header{
         order:-2;
+    }
+
+    .about-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        align-content: space-between;
+    
+        background-color: #DEE8FE;
+        margin: auto;
+        padding: 0rem 2rem 2rem 2rem; 
+
+       
+        max-width:1200px;
     }
 
     .container{
